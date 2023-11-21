@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles/stylesInicioSesion.css">
+    <title>Inicio Sesión</title>
+</head>
+<body>
+    <header>Mundo de ceniza</header>
+    <div class="formulario">
+        <h1>Para continuar inicie sesión</h1>
+        <form action="/action_page.php">
+            <div>
+                <label for="usuario">Usuario:</label><br>
+                <input type="text" id="usuario" name="usuario" required minlength="5" maxlength="20"><br>
+            </div>
+            <div>
+                <label for="constraseña">Contraseña:</label><br>
+                <input type="password" id="constraseña" name="contraseña" required alt="strongPass" minlength="8" maxlength="40"><br>
+            </div>
+            <nav>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+            </nav>
+            <nav>
+                <a href="./Registrarse.html">Cancelar</a>
+                <a href="./juegos.html">Iniciar sesión</a>
+            </nav>
+        </form>
+        
+    </div>
+</body>
+</html>

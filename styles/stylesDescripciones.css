@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #023E8A, #0077B6);
+}
+
+h1{
+    font-size: 40px;
+    color: #0096C7;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color:rgba(240, 248, 255, 0.668);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+    width: 100vw;
+    height: 75vh;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 12vh;
+    background-image: linear-gradient(to left, #023E8A, #0077B6);
+    margin-top: 6px;
+}
+
+footer nav{
+    width:30vw;
+    height: 8vh;
+    background-image: linear-gradient(to right, #0096C7, #00B4D8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+p{
+    margin-left: 10px;
+    font-size: 17px;
+    color: #48CAE4;
+    
+}
+
+div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (hover: hover){
+footer nav :hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+}
+
+@media (hover: hover){
+footer nav:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+}

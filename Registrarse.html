@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles/stylesRegistrarse.css">
+    <title>Registro</title>
+</head>
+<body>
+    <header>Mundo de ceniza</header>
+    <div class="formulario">
+        <h1>Para continuar regístrese o inicie sesión</h1>
+        <form action="/action_page.php">
+            <div>
+                <label for="usuario">Usuario:</label><br>
+                <input type="text" id="usuario" name="usuario" required minlength="5" maxlength="20"><br>
+            </div>
+            <div>
+                <label for="constraseña">Contraseña:</label><br>
+                <input type="password" id="constraseña" name="contraseña" required alt="strongPass" minlength="8" maxlength="40"><br>
+            </div>
+            <div>
+                <label for="constraseña">Confirmar contraseña:</label><br>
+                <input type="password" id="constraseña2" name="contraseña2" required alt="strongPass" minlength="8" maxlength="40"><br>
+            </div>
+            <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="text" id="correo" name="correo" required minlength="5" maxlength="50" pattern="[a-z]+@[outlook|hotmail|gmail|yahoo]\.[a-z]{1,3}">
+            </div>
+            <div>
+            <label for="número">Número de teléfono:</label>
+            <input type="text" id="número" name="número" required pattern="[0-9]{9}">
+            </div>
+            <nav>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+            </nav>
+            <nav>
+                <a href="./juegos.html">Registrarse</a>
+                <a href="inicioSesion.html">Iniciar sesión</a>
+            </nav>
+        </form>
+        
+    </div>
+</body>
+</html>
