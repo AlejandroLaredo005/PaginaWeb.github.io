@@ -82,25 +82,25 @@ body {
 @media only screen and (max-width: 768px){
     
     .caja{
-        width: auto;
-        height: auto;
+        width: 100vw;
+        height: 50vh;
     }
     .caja div{
         height: auto;
-        width: auto;
+        width: 120vw;
     }
 
     .caja2{
-        width: auto;
-        height: auto;
+        width: 100vw;
+        height: 50vh;
     }
 
     .caja2 div{
         height: auto;
-        width: auto;
+        width: 120vw;
     }
 
     .foto{
-        width: auto;
+        width: 120vw;
     }
 }
