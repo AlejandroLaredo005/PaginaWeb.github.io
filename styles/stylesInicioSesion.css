@@ -140,3 +140,40 @@ body {
 }
 }
 
+@media only screen and (max-width: 768px){
+    .formulario{
+        height: auto;
+        width: auto;
+    }
+
+    .formulario div{
+        height: auto;
+        width: auto;
+        margin: 10px;
+    }
+
+    .formulario nav{
+        height: auto;
+        width: auto;
+        margin: 10px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .formulario{
+        height: auto;
+        width: auto;
+    }
+
+    .formulario div{
+        height: auto;
+        width: auto;
+        margin: 15px;
+    }
+
+    .formulario nav{
+        height: auto;
+        width: auto;
+        margin: 10px;
+    }
+}
+
