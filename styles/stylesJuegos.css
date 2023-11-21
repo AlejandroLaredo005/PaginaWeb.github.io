@@ -80,11 +80,15 @@ body {
 }
 
 @media only screen and (max-width: 768px){
-    
+    body{
+        overflow-x: hidden;
+    }
+
     .caja{
         width: 47vw;
         height: auto;
         flex-direction: column;
+        padding-right: 185px;
     }
     .caja div{
         height: auto;
@@ -95,6 +99,7 @@ body {
         width: 47vw;
         height: auto;
         flex-direction: column;
+        padding-right: 185px;
     }
 
     .caja2 div{
@@ -104,5 +109,32 @@ body {
 
     .foto{
         width: 80vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .caja{
+        width: auto;
+        height: auto;
+        
+    }
+    .caja div{
+        height: auto;
+        width: auto;
+    }
+
+    .caja2{
+        width: auto;
+        height: auto;
+        
+    }
+    .caja2 div{
+        height: auto;
+        width: auto;
     }
 }

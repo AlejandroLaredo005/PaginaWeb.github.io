@@ -89,3 +89,13 @@ footer nav:hover{
         height: auto;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    p{
+        font-size: 15px;
+    }
+
+    div{
+        height: auto;
+    }
+}
