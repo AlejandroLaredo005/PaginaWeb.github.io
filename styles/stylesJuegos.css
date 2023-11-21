@@ -78,3 +78,29 @@ body {
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
+
+@media only screen and (max-width: 768px){
+    
+    .caja{
+        width: auto;
+        height: auto;
+    }
+    .caja div{
+        height: auto;
+        width: auto;
+    }
+
+    .caja2{
+        width: auto;
+        height: auto;
+    }
+
+    .caja2 div{
+        height: auto;
+        width: auto;
+    }
+
+    .foto{
+        width: auto;
+    }
+}
