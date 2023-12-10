@@ -3,6 +3,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
+    overflow-x: hidden;
     background-color: aquamarine;
 }
 
@@ -15,12 +17,38 @@ header{
     width: 100vw;
     background-color: rgb(0, 0, 0);
     color:rgba(240, 248, 255, 0.668);
-    font-size: 40px;
+    font-size: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
+
+section{
+    height: 10vh;
+    width: 100vw;
+    background-color: #0077B6;
+    color:rgba(240, 248, 255, 0.668);
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section nav{
+    margin: 10px;
+}
+
+a{
+    color: #00B4D8;
+}
+
+@media (hover: hover){
+    a:hover{
+        transform: scale(1.1);
+        color: #48CAE4;
+    }
+    }
 
 .formulario{
     display: flex;
@@ -33,7 +61,7 @@ header{
     background-color: #0096C7;
     margin-top: 30px;
     width: 35vw;
-    height:80vh;
+    height:70vh;
 }
 
 .formulario div{
@@ -167,6 +195,17 @@ body {
     .formulario a{
         width: 20vw;
     }
+
+    section{
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    header{
+        font-size: 40px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -196,6 +235,10 @@ body {
 
     .formulario a{
         width: 20vw;
+    }
+
+    section nav{
+        font-size: 17px;
     }
 }
 
