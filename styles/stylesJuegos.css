@@ -4,6 +4,7 @@ body{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    overflow-x: hidden;
     background-color: aquamarine;
 }
 
@@ -41,6 +42,13 @@ section nav{
 a{
     color: #00B4D8;
 }
+
+@media (hover: hover){
+    a:hover{
+        transform: scale(1.1);
+        color: #48CAE4;
+    }
+    }
 
 .caja{
     height: 43vh;
@@ -80,12 +88,6 @@ a{
     width: 30vw;
 }
 
-@media (hover: hover){
-.foto:hover{
-    transform: scale(1.1);
-}
-}
-
 @keyframes fondo{
     0% {background-color: #03045E;} 
    25% {background-color: #023E8A;}
@@ -93,6 +95,7 @@ a{
    75% {background-color: #023E8A;} 
   100% {background-color: #03045E;} 
 }
+
 body {
   animation-name: fondo;
   animation-duration: 20s;
@@ -100,10 +103,6 @@ body {
 }
 
 @media only screen and (max-width: 768px){
-    body{
-        overflow-x: hidden;
-    }
-
     .caja{
         width: auto;
         height: auto;
@@ -143,10 +142,6 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
-    body{
-        overflow-x: hidden;
-    }
-
     .caja{
         width: auto;
         height: auto;

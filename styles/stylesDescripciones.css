@@ -3,6 +3,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
+    overflow-x: hidden;
     background-image: linear-gradient(to right, #023E8A, #0077B6);
 }
 
@@ -16,7 +18,7 @@ header{
     width: 100vw;
     background-color: rgb(0, 0, 0);
     color:rgba(240, 248, 255, 0.668);
-    font-size: 40px;
+    font-size: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +31,7 @@ div{
     justify-content: top;
     flex-direction: column;
     width: 100vw;
-    height: 75vh;
+    height: 65vh;
 }
 
 footer{
@@ -54,8 +56,8 @@ footer nav{
 }
 
 p{
-    margin-left: 10px;
-    font-size: 17px;
+    margin: 10px;
+    font-size: 22px;
     color: #48CAE4;
     
 }
@@ -65,6 +67,36 @@ div p{
     align-items: center;
     justify-content: center;
 }
+
+section{
+    height: 10vh;
+    width: 100vw;
+    background-color: #0077B6;
+    color:rgba(240, 248, 255, 0.668);
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section nav{
+    margin: 10px;
+}
+
+a{
+    color: #00B4D8;
+}
+
+footer a{
+    color: #023E8A;
+}
+
+@media (hover: hover){
+    a:hover{
+        transform: scale(1.1);
+        color: #48CAE4;
+    }
+    }
 
 @media (hover: hover){
 footer nav :hover{
@@ -81,21 +113,28 @@ footer nav:hover{
 }
 
 @media only screen and (max-width: 768px){
-    p{
-        font-size: 13px;
-    }
-    
-    div{
+     div{
         height: auto;
+    }
+
+    section{
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    header{
+        font-size: 40px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
-    p{
-        font-size: 15px;
-    }
-
     div{
         height: auto;
+    }
+
+    section nav{
+        font-size: 17px;
     }
 }
