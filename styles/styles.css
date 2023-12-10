@@ -3,6 +3,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
     background-image: linear-gradient(to right, #023E8A, #0077B6);
     font-size: 19px;
     color: #48CAE4;
@@ -66,10 +67,14 @@ a{
     body{
         overflow-x: hidden;
     }
+
+    header{
+        font-size: 40px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
     section nav{
-        font-size: 16px;
+        font-size: 17px;
     }
 }
