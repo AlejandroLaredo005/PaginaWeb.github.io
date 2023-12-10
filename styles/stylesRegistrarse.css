@@ -185,16 +185,12 @@ body {
     }
 
     .formulario input[type="submit"]{
-        width: 20vw;
+        width: 24vw;
     }
 
     .formulario input[type="reset"]{
-        width: 20vw;
+        width: 24vw;
     }   
-
-    .formulario a{
-        width: 20vw;
-    }
 
     section{
         height: auto;
