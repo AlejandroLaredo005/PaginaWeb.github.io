@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylesFotos.css">
+    <title>Fotos</title>
+</head>
+<body>
+    <header>Mundo de ceniza</header>
+    <section>
+        <nav><a href="index.html">Introduccion</a></nav>
+        <nav><a href="juegos.html">Juegos</a></nav>
+        <nav><a href="darkSouls.html">Dark Souls</a></nav>
+        <nav><a href="darkSouls2.html">Dark Souls 2</a></nav>
+        <nav><a href="darkSouls3.html">Dark Souls 3</a></nav>
+        <nav><a href="bloodborne.html">Bloodborne</a></nav>
+        <nav><a href="eldenRing.html">Elden Ring</a></nav>
+        <nav><a href="sekiro.html">Sekiro</a></nav>
+        <nav><a href="Registrarse.html">Registrarse</a></nav>
+        <nav><a href="inicioSesion.html">Iniciar Sesión</a></nav>
+        <nav><a href="fotos.html">Fotos</a></nav>
+    </section>
+    <div class = "imagen">
+        <img id = "img" src = "https://steamuserimages-a.akamaihd.net/ugc/2046363739230761844/5C2137540B36D1ED05C7E14EF927DC55A817B7BD/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
+    </div>
+    <div class ="botones">
+        <input type ="button" value = "siguiente" id="siguiente" onclick="pasarUnaImagen()">
+        <input type ="button" value = "anterior" id="anterior" onclick="volverUnaImagen()">
+    </div>
+    <div class = "imagen2">
+        <img id = "img2" src = "https://steamuserimages-a.akamaihd.net/ugc/2046363739230761844/5C2137540B36D1ED05C7E14EF927DC55A817B7BD/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
+    </div>
+    <div class ="botones2">
+        <input type ="button" value = "avance" id="avance" onclick="clickAvance()">
+        <input type ="button" value = "parada" id="parada" onclick="pararImagen()">
+    </div>
+    <div class ="boton">
+        <input type ="button" value = "cambiar" id="cambiar" onclick="cambiarColores()">
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
